@@ -1,0 +1,29 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - sqlite3 > node-pre-gyp > tar-pack > debug:
+        patched: '2021-07-06T03:38:51.517Z'
+  'npm:extend:20180424':
+    - sqlite3 > node-pre-gyp > request > extend:
+        patched: '2021-07-06T03:38:51.517Z'
+  'npm:hoek:20180212':
+    - sqlite3 > node-pre-gyp > request > hawk > hoek:
+        patched: '2021-07-06T03:38:51.517Z'
+    - sqlite3 > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2021-07-06T03:38:51.517Z'
+    - sqlite3 > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2021-07-06T03:38:51.517Z'
+    - sqlite3 > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-07-06T03:38:51.517Z'
+  'npm:ms:20170412':
+    - sqlite3 > node-pre-gyp > tar-pack > debug > ms:
+        patched: '2021-07-06T03:38:51.517Z'
+  'npm:stringstream:20180511':
+    - sqlite3 > node-pre-gyp > request > stringstream:
+        patched: '2021-07-06T03:38:51.517Z'
+  'npm:tough-cookie:20170905':
+    - sqlite3 > node-pre-gyp > request > tough-cookie:
+        patched: '2021-07-06T03:38:51.517Z'
